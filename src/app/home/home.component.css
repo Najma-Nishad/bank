@@ -1,0 +1,57 @@
+#home{
+    /* background-image:url(https://content.pymnts.com/wp-content/uploads/2016/09/updating-digital-mobile-banking.jpg) ; */
+    position: relative;
+    text-align: center;
+}
+   
+
+   
+    .centered {
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        padding: 50px;
+        margin-top: 30px;
+        width: 50%;
+               
+      }
+      .centered p{
+        font-size:50px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: white;
+      }
+      .centered span{
+        color:silver;
+      }
+      .bottom{
+        position: absolute;
+        top: 80%;
+        left: 10%;
+      }
+      
+      .modal-header,.modal-footer{
+        background-color:rgb(16, 16, 58);
+        color: white;
+      }
+      @media screen and (max-width: 600px) {
+        .img{
+            height:200px;
+            width: 200px;
+        }
+        .centered {
+            top:0;
+            left:0;
+            margin-top:0px;
+            padding:20px;
+            width: 100%;
+        }
+        .centered p{
+            font-size:15px;
+           
+
+        }
+
+        .col-sm-2 {
+          width: 100%;
+        }
+    }

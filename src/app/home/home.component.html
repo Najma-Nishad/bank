@@ -1,0 +1,93 @@
+<div id="home">
+   
+<img class=" img-fluid w-100 h-100 " src="https://content.pymnts.com/wp-content/uploads/2016/09/updating-digital-mobile-banking.jpg" alt="">
+
+<div class="centered card  bg-transparent border-0 ">
+    
+    <p>ONLINE BANKING WITH SBI</p>
+<span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque quas animi nostrum voluptate tempora ipsam, maiores ex modi totam sequi blanditiis repudiandae molestiae, laudantium libero non voluptatum, asperiores minus recusandae!</span>
+<button class="btn bg-white align-self-center text-center w-25">Get Started</button>
+</div>
+
+<div class="bottom">
+    <div class="row">
+        <div class="col-sm-2 w-auto p-3"><button type="button" class="btn btn-outline-light text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">View Profile</button></div>
+        <div class="col-sm-2 w-auto p-3"><button type="button" class="btn btn-outline-light text-white" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Balance Enquiry</button></div>
+        <div class="col-sm-2 w-auto p-3"><button type="button" class="btn btn-outline-light text-white" data-bs-toggle="modal" data-bs-target="#exampleModal2">Money Transfer</button></div>
+        <div class="col-sm-2 w-auto p-3"><button type="button" class="btn btn-outline-light text-white">Account Statement</button></div>
+        <div class="col-sm-2 w-auto p-3"><button type="button" class="btn btn-outline-light text-white">Log Out</button></div>
+        <div class="col-sm-2 w-auto p-3"><button type="button" class="btn btn-outline-light text-white">Delete Account</button></div>
+    </div>
+</div>
+  
+        
+
+    
+
+   </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <div class="card w-100 " >
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/640px-User_icon_2.svg.png" class="card-img-top w-25 h-25 align-self-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Profile details</h5>
+              <p class="card-text text-center"> User Name : Name <br>Account Number : 1234</p>
+
+            </div>
+          </div>
+    </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- offcanvas -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title w-100 text-center" id="offcanvasExampleLabel">Balance Details</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  <div class="offcanvas-body">
+    <div>
+        <img src="https://i.postimg.cc/LsDtGpY8/coin.png" alt="">
+      <h3>Hi, Name</h3>
+      <p>Your Current Account Balance is</p>
+      <h2>Balance:</h2>
+    </div>
+      </div>
+</div>
+<!-- Modal 2-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button " class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <form action="">
+            <input type="text" id="acno" class="form-control mt-2" name="acc-to" placeholder="Recipient Account Number">
+            <input type="text" id="amount" class="form-control mt-2" name="amount-to" placeholder="Amount To Transfer">
+            <input type="password" id="psw" class="form-control mt-2" name="psw" placeholder="Password">
+            <div>
+                <button class="btn bg-success text-white p-2 mt-3 w-100">Transfer</button>
+            </div>
+        </form>
+    </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
