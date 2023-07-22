@@ -1,5 +1,5 @@
 
-   <h1>{{data}}</h1>  <!--string interpolation-->
+   <!-- <h1>{{data}}</h1>  //string interpolation -->
         
             
             <div class="w-auto container-sm p-4 m-5 bg-white  border">
@@ -14,10 +14,10 @@
             <div class="col-sm-6 ">
                 <div class="card mt-3 p-3 border-black bg-light shadow w-100">
                 <h1 class="text-center">LOGIN</h1>
-               <input id="u1" type="text"  class="form-control" [placeholder]="pdata"><!-- property binding -->
-                <input type="password" class="form-control mt-2" placeholder="password">
+               <input id="u1" name="u1" type="text"  class="form-control" [placeholder]="pdata"><!-- property binding -->
+                <input (change)="accnoChange($event)" type="password" class="form-control mt-2" placeholder="password"><!-- $event binding -->
                 <div class="text-center p-3 mt-2"><a href="">forgot passsword</a></div>
-               <div class="text-center"> <button (click)="login()" class="btn btn-primary  ">Login</button></div>
+               <div class="text-center"> <button (click)="login()" class="btn btn-primary  ">Login</button></div><!-- event binding -->
                 <h6 class="text-center mt-2">Do not have an Account?<a href="">Create Account</a></h6>
             </div>
             </div>
